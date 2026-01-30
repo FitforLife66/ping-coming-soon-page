@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-franklin: "Libre Franklin", sans-serif;
+  --text-xs: 0.8125rem;  /* 12px -> 13px Edge minimal fontSize is 13px */
+  --color-primary-blue-500:  hsl(223, 87%, 63%);
+  --color-secondary-blue-200:  hsl(223, 100%, 88%);
+  --color-secondary-red-400:  hsl(354, 100%, 66%);
+  --color-neutral-gray-400:  hsl(0, 0%, 59%);
+  --color-neutral-blue-950:  hsl(209, 33%, 12%);
+}
+/*  */
+
+@layer base {
+  @font-face {
+    font-family: "Libre Franklin", sans-serif;
+    src: url("/fonts/libre-franklin-v20-latin-300.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Libre Franklin", sans-serif;
+    src: url("/fonts/libre-franklin-v20-latin-600.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Libre Franklin", sans-serif;
+    src: url("/fonts/libre-franklin-v20-latin-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+	*, *::before, *::after {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+  html {
+    font-size: 16px;  /* Explicit because of Edge Browser */
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+}
