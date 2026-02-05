@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/ping-coming-soon-page/
-- Live Site URL: https://ping-coming-soon.netlify.app/
+- Live Site URL: https://f4l-ping-coming-soon-page.netlify.app/
 
 ## My process
 
